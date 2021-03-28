@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+      width: 100%;
+      height: min-content;
+      
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-image:linear-gradient(to right, #41868C, #FFEA05);
+}
+.image img{
+    width: 150px;
+    height: 95px;
+    line-height: 100px;
+    margin-left: 40px;
+    float: left;
+
+}
+.name{
+    float: right;
+    margin-right: 40px;
+}
+.name p{
+    font-size: 25px;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+main{
+    width: 100%;
+
+}
+main section{
+    width: 100%;
+    height: min-content;
+    background-image: linear-gradient(to left, #41868c, #ffea05);
+    text-align: center;
+    
+}
+section a{
+    text-decoration: none;
+    padding:  15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+    
+}
+.slidershow{
+    width:100%;
+    height:600px;
+    overflow:hidden;
+    }
+    
+    .navigation{position:absolute;
+    top:620px;
+    left:50%;
+    transform: translateX(-50%);
+    display:flex;
+    }
+    
+    .bar{width:50px;height:10px;
+    border:2px solid #fff;
+    margin:6px;
+    cursor:pointer;
+    border-radius:5px;
+    }
+    .bar:hover{
+        border:1px solid green
+        ;}
+    
+    input[name="r"]{
+    position:absolute;
+    visibility:hidden;
+    }
+    
+    .slides{width:500%;
+    height:100%;
+    display:flex;
+    }
+    .slide{width:20%;
+    transition:0.6S;
+    }
+    
+    .slide img{width:100%;
+    height:100%;
+    }
+    
+    #r1:checked ~ .s1{
+    margin-left:-0%;
+    }
+    
+    #r2:checked ~ .s1{
+    margin-left:-20%;
+    }
+    
+    #r3:checked ~ .s1{
+    margin-left:-40%;
+    }
+    
+    
+    #r4:checked ~ .s1{
+    margin-left:-60%;
+    }
+    
+    #r5:checked ~ .s1{
+    margin-left:-80%;
+    }
+.card{
+    display: grid;
+   grid-template-columns: 33.33% 33.33% 33.34%;
+  
+    width: 100%;
+    height: 550px;
+    margin: 7px;
+    background-color: black;
+
+
+}
+.card1:hover{
+    box-shadow: 12px 17px 6px white;
+    transform: rotate(-10deg);
+}
+.card1{
+    
+    height: 100%;
+    background-color: aqua;
+   
+    margin: 5px;
+  
+  
+    
+
+}
+.card img{
+    position: relative;
+    left: 100px;
+    top:10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 4px grey;
+}  
+.card p{
+    text-align: justify;
+    padding: 5px;
+} 
+.card h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 5px 5px 2px white;
+}
+.card2{
+    height: 100%;
+    background-color:cadetblue ;
+    margin: 5px;
+ 
+
+
+}
+.card2:hover{
+    box-shadow: 12px 17px 6px white;
+    transform: rotate(-10deg);
+}
+.card3{
+    height: 100%;
+    background-color: chocolate;
+    margin: 5px;
+   
+    
+}
+.card3:hover{
+    box-shadow: 12px 17px 6px white;
+    transform: rotate(-10deg);
+
+}
+.details{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top:17px;
+    background-color: cadetblue;
+   
+}
+.detailes-name{
+    width: 50%;
+    height: 100%;
+    
+    float: left;
+
+}
+.detailes-name img{
+    width: 150px;
+    height: 150px;
+   margin-left:200px;
+   margin-top:7px;
+   border-radius: 50%;
+   box-shadow: 10px 10px 4px grey;
+    
+}
+.detailes-name h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 2px white;
+}
+.detailes-name p{
+    text-align: justify;
+    line-height: 25px;
+    padding: 10px 7px;
+  
+}
+.login{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+.login h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-shadow: 5px 5px 2px grey;
+
+}
+.loginform{
+
+    width: 95%;
+    height: 320px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 4px white;
+    background-color: wheat;
+    
+}
+.loginform:hover{
+    box-shadow: 10px 10px 6px white;
+}
+.loginform input{
+    position: relative;
+    left: 35%;
+    top:60px;
+    height: 40px;
+    width: 200px;
+    border-radius: 100px;
+    outline: none;
+    padding: 5px 0px;
+}
+
+.loginform input:hover{
+    width: 250px;
+    font-size: 20px;
+    border:1px solid red;
+
+}
+.btn1{
+  
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.btn1 button{
+    width: 75px;
+    height: 35px;
+    border-radius: 100px;
+    outline: none;
+}
+.btn1 button:hover{
+    border:1px solid green;
+    width: 85px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+.btn{
+    position: relative;
+    top:40px;
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    outline: none;
+    font-size: 30px;
+    color:blue;
+    left: 0px;
+    float: left;
+    
+}
+
+
+
+
+
+
